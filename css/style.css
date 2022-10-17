@@ -1,8 +1,13 @@
-.cores{
+.cor-1{
    background-color: #27dbae; 
 }
-
+.cor-2{
+    background-color: #b7ff00;
+}
 .esp{
     margin-left: 35vw;
-    margin-top: -35vh;
+    margin-top: -45vh;
+}
+.esp-2{
+    margin-left: 35vw;
 }

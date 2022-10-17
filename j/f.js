@@ -26,12 +26,12 @@ for(linha=0; linha < 20; linha++){
     document.write("<tr>");
         for(col=0; col < 20; col++){
             document.write("<td>");
-                document.write(matriz[linha][col]);  
-        
+                document.write("<div class='cor-1'>"+matriz[linha][col]+"</div>");  
 }        
 document.write("</td> </tr>"); 
 document.write("<br>");
 } 
+/*
 d= new Array;
 d=[ 
     [0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,1],
@@ -58,6 +58,6 @@ d=[
     d=matriz;
     if(d==1){
         document.write("aehfjkhfkjdhfjhfjka");
-    }
-document.write("</table>");
+    }*/
 
+document.write("</table>");
